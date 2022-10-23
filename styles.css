@@ -30,6 +30,7 @@ div {
   margin-left: 2.6rem;
   width: 10rem;
   padding: 2px;
+  filter: invert(6%) sepia(73%) saturate(7325%) hue-rotate(239deg) brightness(98%) contrast(135%); /* darkblue: 00008b */
 }
 
 #location {
