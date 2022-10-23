@@ -1,46 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css">
+<div id>
+  <h1 id="name">Lance Stephens</h1>
+  <h2 id="location">Oklahoma City, OK</h2>
+</div>
+<div id="social">
+  <div id="email">
+    <a href="mailto:l-stephens@hotmail.com">
+      <img src="static/email.png" alt="email" width="30" height="30">
+    </a>
+  </div>
+  <div id="linkedin">
+    <a href="https://www.linkedin.com/in/lance-stephens">
+      <img src="static/linkedin.png" alt="linkedin" width="30" height="30">
+    </a>
+  </div>
+  <div id="github">
+    <a href="https://github.com/pythoninthegrass">
+      <img src="static/github.png" alt="github" width="30" height="30">
+    </a>
+  </div>
+</div>
 <div id="header"></div>
-<div class="left"></div>
 <div class="stuff">
-  <br><br>
-  <h1>Resume</h1>
-  <h2>Emily</h2>
-  <hr />
-  <br>
-  <p class="head">Interests</p>
-  <ul>
-    <li>Drawing</li>
-    <li>Photography</li>
-    <li>Design</li>
-    <li>Programming</li>
-    <li>Computer Science</li>
-  </ul>
+  <p class="head">Summary</p>
+  <p class="summary">I am an open-minded, cross-platform technology nerd who enjoys helping others succeed at their chosen fields. Breaking then fixing my family PC as a kid was how I got started. Solving technical problems efficiently is what drives me. My ultimate goal is to do work that I find meaningful and benefits everyone involved.</p>
   <p class="head">Skills</p>
+  <p class="skills">Shell scripting, Python, Git, Docker, Kubernetes, Terraform, AWS, SQL</p>
+  <p class="head">Career Highlights</p>
   <ul>
-    <li>Web Design with HTML & CSS</li>
-  </ul>
-  <p class="head">Education</p>
-  <ul>
-    <a href="http://www.wiltonhighschool.org/pages/Wilton_High_School">
-      <li>Wilton High School</li>
-    </a>
-    <!--Link-->
-    <a href="https://www.silvermineart.org/">
-      <li>Silvermine School of Arts</li>
-    </a>
-    <li>Codeacademy</li>
+    <li>Automated IT team processes for onboarding, offboarding, updates, inventory, and common pain points (Google Workspace lockouts, syncing management server endpoints, reporting).</li>
+    <li>Led mobile device management server migration from self-hosted AWS to managed service.</li>
+    <li>Trained junior IT team members on everything from SaaS software to developing software.</li>
   </ul>
   <p class="head">Experience</p>
+  <!-- TODO: add images to left of `emphasis` tags -->
+  <!-- <v:imagedata src="static/image001.png" o:title=""/> -->
+  <p id="emphasis">DevOps Engineer</p>
+  <p id="sub">Greenhouse Software</p>
+  <p id="date">Sep 2022 - Present (1 month +)</p>
   <ul>
-    <li>Student Technology Intern for Wilton School District</li>
-    <li>Babysitter</li>
+    <li>Led migration to Jamf Cloud from self-hosted Jamf Pro AWS instance (EC2, RDS, S3).</li>
+    <li>Setup CI/CD for Jamf (MDM) for shell scripts hosted in GitHub.</li>
+    <li>Patched Jamf (Apache Tomcat) and its host Ubuntu server for zero days and general maintenance.</li>
+    <li>Automated upgrades for macOS workstations via Self Service.</li>
+    <li>Standardized Python repo template and relevant tooling (Docker, Terraform, Kubernetes (k8s) cron jobs).</li>
+    <li>Wrote the tier III and IV interview questions and conducted final technical interviews for IT engineers.</li>
+    <li>Worked with management to standardize career ladder for senior engineers.</li>
+    <li>Contributed dozens of Bash and Python scripts to automate various processes (e.g., encryption key escrow, temporary admin privileges, GUI prompts, sync API endpoints).</li>
+    <li>Built engineering best practices for tracking projects in Jira via epics, sprints, tasks, and sub-tasks.</li>
+    <li>Authored and edited over a hundred Confluence knowledge base articles.</li>
+    <li>Partnered with building, security, networking, software, and MDM vendors to resolve business needs.</li>
   </ul>
-  <p class="head">Extracurriculars</p>
+  <p id="emphasis">Senior IT Engineer</p>
+  <p id="sub">Greenhouse Software</p>
+  <p id="date">Mar 2021 - Sep 2022 (1 year +)</p>
+  <p id="emphasis">IT Engineer IV</p>
+  <p id="sub">Greenhouse Software</p>
+  <p id="date">Nov 2019 - Mar 2021 (1 year 5 months)</p>
+  <p id="emphasis">Desktop Engineer</p>
+  <p id="sub">Napster</p>
+  <p id="date">Nov 2016 - Aug 2019 (2 years 10 months)</p>
   <ul>
-    <li>Recycling Club</li>
-    <li>Gardening Club</li>
-    <li>Book Club</li>
+    <li>Automating Mac and PC deployment via netboot and PXE servers and respective imaging suites.</li>
+    <li>Shell scripting (BASH and PowerShell) to archive and deploy workstations, gather information from servers (MS Server 2003, 2008/R2 and 2012/R2), and fill gaps from deployment.</li>
+    <li>Building GUI Python wrapper for Google G-Suite API to efficiently manage users and groups.</li>
+    <li>Maintained McAfee ePO server and workstation deployment with notable protection against ransomware attacks (Eternal Blue, Petya, and WannaCry.)</li>
+    <li>Implemented new WSUS server via vSphere and pushed hotfixes for said ransomware.</li>
+    <li>Completed audio-visual work with vendor on main stage used for company-wide meetings.</li>
+    <li>Resolved audio interference from a local radio station interrupting the primary conference room for executives.</li>
+    <li>Repaired data analytics server (MicroStrategy) bypassing vendor to meet SLAs.</li>
   </ul>
+  <!-- <p id="emphasis">IT Services Technician</p>
+  <p id="emphasis">Desktop Engineer</p> -->
+  <p class="head">Education</p>
+    <p id="emphasis">Oklahoma State University-Stillwater</p>
+    <p id="sub">B.S., Political Science</p>
+    <p id="emphasis">Oklahoma State University-Oklahoma City</p>
+    <p id="sub">A.S., Applied Technology</p>
 </div>
-<div class="right"></div>
-<div id="footer">
-  <h2 id="name">Emily</h2></div>
+<!-- TODO: add 'Licenses & Certifications section' -->
