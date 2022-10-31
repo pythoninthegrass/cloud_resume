@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>Error Cloud Gurus</title>
+		<style>
+			html,body {
+				background: linear-gradient(#DE2C0D, #DE2C0D);
+				font-family: Arial;
+			}
+
+			#content {
+				display: inline-block;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				text-align: center;
+				min-width: 64vw;
+			}
+
+			h1 { 
+				color: #FFF;
+				font-size: 6vw;
+				position: relative;
+				display: inline-block;
+			}
+
+			h1::after {
+				/* underline */
+				content: "";
+				width: 16vw;
+				height: 1vw;
+				position: absolute;
+				background: #FFF;
+				left: 0px;
+				bottom: -10px;
+				transform: rotate(-2deg);
+			}
+
+			img#bottom {
+				width: 200px;
+				position: absolute;
+				left: 50%;
+				bottom: 24px;
+				transform: translateX(-50%);
+				filter: grayscale(1) brightness(0) invert(1);
+			}
+			
+			span.orange {
+				color: #FD8A15
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<h1>Error &#128552;</h1>
+		</div>
+
+		<img id="bottom" src="https://s3.amazonaws.com/acloudguruimages/acg2.png">
+	</body>
+</html>
