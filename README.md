@@ -42,11 +42,13 @@ aws s3 rm s3://${bucket_name}/policy_s3.json.example
 
 ## TODO
 * Outstanding steps: 5 - 16  
-  5. [HTTPS](https://cloudresumechallenge.dev/docs/the-challenge/aws/#5-https)
+  5. ~~[HTTPS](https://cloudresumechallenge.dev/docs/the-challenge/aws/#5-https)~~  
+    * Currently the built-in _ugly_ [ACM URL](https://d25082olbhf53e.cloudfront.net)  
+    * Either setup `aws_acm_certificate` or use [Namecheap TF provider](https://registry.terraform.io/providers/namecheap/namecheap/latest/docs) to link custom/non-AWS Route53 domain  
   6. DNS
   7. Javascript
   8. Database
-  9. API
+  9.  API
   10. Python
   11. Tests
   12. Infrastructure as Code
